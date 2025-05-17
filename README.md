@@ -12,8 +12,8 @@ A simple Flask application to crawl a website for images, download them into cat
 ## Installation
 
 
-- git clone https://github.com/yourusername/web-image-crawler-pro.git
-- cd web-image-crawler-pro
+- git clone https://github.com/tibikkk/download_images.git
+- cd download_images
 - python3 -m venv venv
 - source venv/bin/activate       # On Windows: venv\Scripts\activate
 - pip install -r requirements.txt
