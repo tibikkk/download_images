@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,600&display=swap');
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  font-family: 'Inter', sans-serif;
+}
+.container { width: 100%; max-width: 500px; padding: 1em; }
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  padding: 2em;
+}
+h1 {
+  margin-top: 0;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+form { display: flex; gap: .5em; margin: 1em 0; flex-direction: column; }
+input[type="text"] {
+  padding: .75em;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1em;
+}
+button {
+  padding: .75em 1.5em;
+  border: none;
+  background: #4a90e2;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background .2s;
+}
+button:hover { background: #357ab8; }
+.messages { margin: 0 0 1em; }
+.message {
+  padding: .75em;
+  border-radius: 6px;
+  margin-bottom: .5em;
+}
+.message.error { background: #fdecea; color: #b71c1c; }
+.message.info { background: #e8f4fd; color: #0d47a1; }
+#progress-bar { width: 100%; height: 8px; background: #eee; border-radius: 4px; overflow: hidden; margin-top: 1em; }
+.bar-fill { width: 0%; height: 100%; background: #4a90e2; transition: width .3s ease; }
+.hidden { display: none; }
+.download-link { margin-top: 1em; display: flex; align-items: center; gap: .5em; }
+.remove-zip {
+  cursor: pointer;
+  font-size: 1.5em;
+  line-height: 1;
+}
